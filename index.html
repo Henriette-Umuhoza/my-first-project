@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -6,23 +6,26 @@
     <title>Velvet Crumb🍰</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-    <header>
+    <header id="home">
       <div id="head-video">
         <video autoplay muted loop id="header-video">
           <source src="videos/yourclip.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
+
       <div class="header-content">
         <nav>
           <ul class="header-nav">
-            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#home" id="active">Home</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+
         <div class="he">
           <h1>Velvet Crumb🍰 Bakery</h1>
           <h2>"Where Every Crumb Feels Like Luxury."</h2>
@@ -240,19 +243,16 @@
       </div>
     </section>
 
-    <!-- About Section -->
     <section class="about-section" id="about">
       <h2 class="ab">About us</h2>
 
       <div class="about-grid">
-        <!-- LEFT : SLIDESHOW -->
         <div class="about-slideshow">
           <img src="images/bakery.jpg" alt="our bakery">
           <img src="images/bakers.jpg" alt="our bakers">
           <img src="images/entrance.jpg" alt="the entrance">
         </div>
 
-        <!-- RIGHT : VISION & MISSION -->
         <div class="about-boxes">
           <div class="about-card">
             <h3>Our Vision</h3>
@@ -273,7 +273,6 @@
       </div>
     </section>
 
-    <!-- Why Choose Section -->
     <section class="why-choose-section">
       <div class="why-choose-box">
         <div class="why-text">
@@ -292,29 +291,35 @@
       </div>
     </section>
 
-    <!-- Testimonials Section -->
     <section class="testimonials">
       <h2>What Our Customers Say</h2>
 
       <div class="testimonials-container">
         <div class="testimonial-card">
-          <p>"The chocolate cake is absolutely delicious! I’ll definitely come back for more."</p>
+          <p>
+            "The chocolate cake is absolutely delicious! I’ll definitely come
+            back for more."
+          </p>
           <h3>- Sarah K.</h3>
         </div>
 
         <div class="testimonial-card">
-          <p>"Love the freshly baked bread every morning. Best bakery in town!"</p>
+          <p>
+            "Love the freshly baked bread every morning. Best bakery in town!"
+          </p>
           <h3>- James L.</h3>
         </div>
 
         <div class="testimonial-card">
-          <p>"Friendly service, amazing pastries, and everything tastes homemade."</p>
+          <p>
+            "Friendly service, amazing pastries, and everything tastes
+            homemade."
+          </p>
           <h3>- Emily R.</h3>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
     <section class="contact" id="contact">
       <h2>Contact Us</h2>
 
@@ -334,17 +339,18 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer>
       <div class="footer-container">
-        <p class="footer-copy">© 2026 Velvet Crumb Bakery. All rights reserved.</p>
+        <p class="footer-copy">
+          © 2026 Velvet Crumb Bakery. All rights reserved.
+        </p>
 
         <nav class="footer-nav">
           <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
